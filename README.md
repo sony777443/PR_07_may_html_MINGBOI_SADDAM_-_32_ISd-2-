@@ -59,6 +59,16 @@
 * Реализовать подсчёт количества товаров и общей суммы в корзине.
 * Сохранить состояние корзины в `localStorage`.
 * Добавить фильтры и поиск по каталогу.
-  ```
+  
+  
+ Клонирование  репозиторий:
+   ```bash
+   git clone https://github.com/ваш-username/ваш-проект.git
+   cd ваш-проект
+   ```
+<img width="1896" height="789" alt="20" src="https://github.com/user-attachments/assets/7cdb4e09-88ce-4c76-b536-0e22076630f2" />
+
+<img width="1884" height="677" alt="21" src="https://github.com/user-attachments/assets/9700ad0d-4b64-4d6f-ab6e-720cf34584a2" />
+
 
 
