@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Document</title>
+    <button id="theme-btn" onclick="toggleTheme()">Синяя тема</button>
+    <h1>Наш магазин</h1>
+</head>
+<body>
+
+</body>
+</html>
+
+<div class="cards">
+
+</div class="card">
+
+<div class="img"
+style="background: #f9ca74;" >🍕<img src="travel2.png" </div>
+    <h3>Пицца</h3>
+    <p class="price">500 Р</p>
+    <button
+    onclick="buy(this)">Купить </button>
+</div>
+
+
+<div class="img"
+style="background: #a2a9bd;" >🎧<img src="travel2.png" </div>
+    <h3>Наушник</h3>
+    <p class="price"> 2990 Р</p>
+    <button
+    onclick="buy(this)">Купить </button>
+</div>
+
+
+<div class="img"
+style="background: #53c28e;" >📚<img src="travel2.png" </div>
+    <h3>Книга</h3>
+    <p class="price"> 300 Р</p>
+    <button
+    onclick="buy(this)">Купить </button>
+</div>
+
+
+
+<div class="img"
+style="background: #d1b37c;" > 🧸 <img src="travel2.png" </div>
+    <h3>Игрушка</h3>
+    <p class="price"> 800 Р</p>
+    <button
+    onclick="buy(this)">Купить </button>
+</div>
+
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle("dark");
+        const btn = document.getElementById("theme-btn");
+        if(document.body.classList.contains("dark")){
+            btn.textContent = "Желтая тема";
+        } else {
+            btn.textContent ="Синная тема";
+        }
+    }
+    
+    function buy(btn) {
+        if (btn.textContent === "Купить") {
+            btn.textContent = "Добавлено";
+            btn.classList.add("added");
+        } else {
+            btn.textContent = "Купить";
+            btn.classList.remove("added");
+        }    
+    }
+    </script>
+
+    </body>
+    </html>
